@@ -5,7 +5,7 @@ Details of the code files present in this repository are given below:
 <br>
 
 # 1. Basic Concepts:
-This C++ code showcase basic concepts of opp programming in cpp, demonstrating the use of various data-types, types of constructors, private and public data members/member functions. Furthermore, elaborating the method of using such data members/ member functions in main while preserving the concept of data encapsulation.
+This C++ code showcase basic concepts of Object-Oriented Programming (OOP) programming in cpp, demonstrating the use of various data-types, types of constructors, private and public data members/member functions. Furthermore, elaborating the method of using such data members/ member functions in main while preserving the concept of data encapsulation.
 
 # 2. Aggregation of Classes:
 This C++ code exemplifies Object-Oriented Programming (OOP) principles such as encapsulation and aggregation. The `book` class encapsulates data members (title, name, author, genre) and member functions (add_book_details(), display_book_details()) to manage book details efficiently. In contrast, the `library` class aggregates instances of the `book` class to represent a collection of books. Dynamic memory allocation is employed in the `library` class to allocate memory for the array of books using the `new` keyword in the constructor and deallocate it using `delete[]` in the destructor, ensuring effective memory management. The main() function utilizes a do-while loop to repeatedly prompt the user to add more books to the library, enhancing user interaction and allowing for the dynamic expansion of the library collection.
